@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel='shortcut icon' href='../imgs/imagesofspace.ico' type='image/x-icon' sizes="16x16" />
+
+    <link rel="stylesheet" href="../html/estilo.css">
+
+    <title>Login || Inicio</title>
+
+    
+    <!-- Se valida la Usario -->
+    <script type="text/javascript">
+        function validar(){
+            var usuario = document.getElementById("usuario").value;
+            var contraseña = document.getElementById("contraseña").value;
+
+            if(usuario == "aftp" && contraseña == "1234"){
+                alert ("Usuario y Contraseña Validados");
+            }
+            else{
+                alert ("Datos Incorrectos");
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <form action="paginaPrincipal.html" class="form-box animated fadeInup">
+        <h1 class="form-tittle">welcome</h1>
+        <input type="text" placeholder="Username" autofocus>
+        <input type="password" placeholder="Password">
+        <button type="submit">Login</button>
+    </form>
+
+
+    
+
+    <script type="text/javascript" src="../plugins/jQuery/jquery-3.5.1.slim.min.js"></script>
+<script type="text/javascript" src="../plugins/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

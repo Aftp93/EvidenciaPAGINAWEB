@@ -1,0 +1,85 @@
+
+/*Etiquetas cuerpo*/
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../imgs/fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+/*Etiquetas de Form con border*/
+.form-box{
+    width: 300px;
+    padding: 40px;
+    background: #191919;
+    text-align: center;
+    box-shadow: 20px 30px 57px #000;
+    /*box-shadow: 7px 13px 37px #000;*/
+}
+
+/*Etiquetas de Form del titulo WELCOME*/
+.form-tittle{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;    
+}
+
+.form-box input[type="text"],
+.form-box input[type="password"],
+.form-box button[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #3742fa;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus{
+    width: 280px;
+    border-color: #ffffff;
+}
+
+.form-box button[type="submit"]{
+    border: 0;
+    background: #5352ed;
+    cursor: pointer;
+    border: 2px solid #3742fa;
+}
+
+.form-box button[type="submit"]:hover{
+    background: none;
+}
+
+
+.form{
+    position: relative;
+    width: 800px;
+    height: 1000px;
+    padding-left: 20px;
+    padding-top: 15px;
+    background-color: aqua;
+    border-radius: 20px;
+    margin: auto;
+}
+
+
+
+
+
+
